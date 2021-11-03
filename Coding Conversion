@@ -4,11 +4,22 @@ public class Conversion {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		byte b = 50;
+		char c = 'a';
+		short s = 1000;
+		int i= 50000;
+		float f =5.67f; 
+		double d = .1234;
+		
+		double result = (f * b) + (i / c) - (d * s);
+		
+		System.out.println("result = "+ result);
+		
 		int dollars = 20;
 		double money = dollars;
 		
-		System.out.println("The value of the money is "+ money);
-		System.out.println("$"+ dollars);
+		System.out.println("Please pay this amount of money :"+money);
+		
 	}
 
 }
