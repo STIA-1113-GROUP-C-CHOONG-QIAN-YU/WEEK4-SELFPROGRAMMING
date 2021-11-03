@@ -7,6 +7,10 @@ public class Casting {
 		int total = 50;
 		float result = (float)total /6;
 		System.out.println("The result is "+ result);
+		
+		int total1 = 50;
+		double result1 = (double)total1/7;
+		System.out.println("The result is "+result1);
 	}
 
 }
