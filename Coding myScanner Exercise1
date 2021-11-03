@@ -1,0 +1,31 @@
+package myScanner;
+
+import java.util.Scanner;
+
+public class Exercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			
+  Scanner scan = new Scanner(System.in);
+  
+  System.out.println("Enter your name:");
+  String name = scan.next(); //nextLine print all if next only print one
+	String surname = scan.next();
+  
+  System.out.println("My name is "+name);
+  System.out.println("My surname is "+surname);
+  
+  System.out.println("Please Enter Your Brother's Name: ");
+  String brotherName = scan.next();
+  String brotherSurname =scan.next();
+  System.out.println("My brother's name is "+brotherName);
+  System.out.println("My brother's surname is "+brotherSurname);
+  
+  
+
+  
+  
+	}
+
+}
